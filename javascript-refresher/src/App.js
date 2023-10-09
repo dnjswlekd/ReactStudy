@@ -1,72 +1,93 @@
-// // import { apiKey } from './util.js';
-// // import apiKey from './util.js';
-// import { apiKey, abc as saehoon } from './util.js';
-// // import * as util from './util.js'
+// // // import { apiKey } from './util.js';
+// // // import apiKey from './util.js';
+// // import { apiKey, abc as saehoon } from './util.js';
+// // // import * as util from './util.js'
 
-// // console.log (util.apiKey);
-// console.log(saehoon)
+// // // console.log (util.apiKey);
+// // console.log(saehoon)
 
-// let userMessage = 'Hello World!';
-// // const userMessage = 'Hello World!';
+// // let userMessage = 'Hello World!';
+// // // const userMessage = 'Hello World!';
 
-// userMessage = 'wonji'
+// // userMessage = 'wonji'
 
-// // console.log(userMessage);
-// console.log(10 + 5);
-// console.log('hello'+'world!');
+// // // console.log(userMessage);
+// // console.log(10 + 5);
+// // console.log('hello'+'world!');
 
-// if(10 == 10) {
-//   console.log('wonji'+'sahoon')
-// }
+// // if(10 == 10) {
+// //   console.log('wonji'+'sahoon')
+// // }
 
-// function greet(){
-//   console.log('wonji is react master!')
+// // function greet(){
+// //   console.log('wonji is react master!')
+// // };
+// // function createGreeitng(userName, message = 'I love you') {
+// //   // console.log(userName)
+// //   // console.log(message)
+// //   return 'Hi, I am ' + userName + ', ' + message;
+// // }
+
+// // console.log(createGreeitng('wonji'));
+
+// // const greeting1 = createGreeitng('wonji');
+// // console.log(greeting1)
+
+// // console.log (createGreeitng('sahoon', ' I love you'));
+
+// // const greeting2 = createGreeitng('sahoon', ' I love you');
+// // console.log(greeting2)
+
+// // export default (userName, message) => {
+// //   console.log('hello!')
+// //   return userName + message;
+// // }
+
+// const user = {
+//   name: 'wonji',
+//   age: '25',
+//   greet(){
+//     console.log('hello world')
+//     console.log(this.age)
+//   }
 // };
-// function createGreeitng(userName, message = 'I love you') {
-//   // console.log(userName)
-//   // console.log(message)
-//   return 'Hi, I am ' + userName + ', ' + message;
+
+// console.log(user)
+// console.log(user.name)
+// console.log(user.age)
+// user.greet()
+
+// class User {
+//   constructor(name, age){
+//     this.name = name;
+//     this.age = age;
+//   }
+
+//   greet(){
+//   console.log('Hello!')}
 // }
 
-// console.log(createGreeitng('wonji'));
+// const user1 = new User('jiya', 25)
+// console.log(user1);
+// user1.greet()
 
-// const greeting1 = createGreeitng('wonji');
-// console.log(greeting1)
+const hobbies = [
+  'Sports',
+  'Cooking',
+  'Reading'
+]
+console.log(hobbies[0]);
 
-// console.log (createGreeitng('sahoon', ' I love you'));
+hobbies.push('Movie');
+console.log(hobbies);
 
-// const greeting2 = createGreeitng('sahoon', ' I love you');
-// console.log(greeting2)
+// const index = hobbies.findIndex((item) => {
+//   return item === 'Sports'
+// })
+const index = hobbies.findIndex((item) => item === 'Sports')
 
-// export default (userName, message) => {
-//   console.log('hello!')
-//   return userName + message;
-// }
 
-const user = {
-  name: 'wonji',
-  age: '25',
-  greet(){
-    console.log('hello world')
-    console.log(this.age)
-  }
-};
+console.log(index)
 
-console.log(user)
-console.log(user.name)
-console.log(user.age)
-user.greet()
-
-class User {
-  constructor(name, age){
-    this.name = name;
-    this.age = age;
-  }
-
-  greet(){
-  console.log('Hello!')}
-}
-
-const user1 = new User('jiya', 25)
-console.log(user1);
-user1.greet()
+const editedHobbies = hobbies.map((item) => ({text: item}))
+console.log(editedHobbies)
