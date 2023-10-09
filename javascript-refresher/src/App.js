@@ -11,10 +11,29 @@
 
 // userMessage = 'wonji'
 
-// console.log(userMessage);
-console.log(10 + 5);
-console.log('hello'+'world!');
+// // console.log(userMessage);
+// console.log(10 + 5);
+// console.log('hello'+'world!');
 
-if(10 == 10) {
-  console.log('wonji'+'sahoon')
+// if(10 == 10) {
+//   console.log('wonji'+'sahoon')
+// }
+
+// function greet(){
+//   console.log('wonji is react master!')
+// };
+function createGreeitng(userName, message = 'I love you') {
+  // console.log(userName)
+  // console.log(message)
+  return 'Hi, I am ' + userName + ', ' + message;
 }
+
+console.log(createGreeitng('wonji'));
+
+const greeting1 = createGreeitng('wonji');
+console.log(greeting1)
+
+console.log (createGreeitng('sahoon', ' I love you'));
+
+const greeting2 = createGreeitng('sahoon', ' I love you');
+console.log(greeting2)
