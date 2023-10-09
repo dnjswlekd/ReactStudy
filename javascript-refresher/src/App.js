@@ -99,14 +99,26 @@
 
 // console.log(firstName,lastName)
 
+// const {name: userName, age} = {
+//   name: 'jiya',
+//   age: 25
+// }
 
-const {name: userName, age} = {
-  name: 'jiya',
-  age: 25
-}
-
+// console.log(userName)
+// console.log(age)
 // const name = user.name;
 // const age = user.age;
 
-console.log(userName)
-console.log(age)
+const hobbies = ['Sports', 'Cooking']
+const user = {
+  name: 'jiya',
+  age: 25
+}
+// console.log(user.name)
+// console.log(user.age)
+
+const newHobbies = ['Reading'];
+
+const mergeHobbies = [...hobbies, ...newHobbies]
+
+console.log(mergeHobbies)
