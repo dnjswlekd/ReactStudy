@@ -109,23 +109,39 @@
 // const name = user.name;
 // const age = user.age;
 
-const hobbies = ['Sports', 'Cooking']
-const user = {
-  name: 'jiya',
-  age: 25
+// const hobbies = ['Sports', 'Cooking']
+// const user = {
+//   name: 'jiya',
+//   age: 25
+// }
+// // console.log(user.name)
+// // console.log(user.age)
+
+// const newHobbies = ['Reading'];
+
+// const mergeHobbies = [...hobbies, ...newHobbies]
+
+// console.log(mergeHobbies);
+
+// const extendedUser = {
+//   isAdmin: true,
+//   ...user
+// }
+
+// console.log(extendedUser)
+
+// const password = prompt('Your Password');
+
+// if ( password === 'Hello'){
+//   console.log('Welcome Wonji!')
+// } else if ( password === 'Hello'){
+//   console.log('Love you Wonji!')
+// } else {
+//   console.log('Access not granted.')
+// }
+
+const Family = ['Dad', 'Mom', 'Sister', 'Me'];
+
+for (const Mylove of Family ) {
+  console.log('my family' + ' ' + Mylove);
 }
-// console.log(user.name)
-// console.log(user.age)
-
-const newHobbies = ['Reading'];
-
-const mergeHobbies = [...hobbies, ...newHobbies]
-
-console.log(mergeHobbies);
-
-const extendedUser = {
-  isAdmin: true,
-  ...user
-}
-
-console.log(extendedUser)
