@@ -140,8 +140,12 @@
 //   console.log('Access not granted.')
 // }
 
-const Family = ['Dad', 'Mom', 'Sister', 'Me'];
+// const Family = ['Dad', 'Mom', 'Sister', 'Me'];
 
-for (const Mylove of Family ) {
-  console.log('my family' + ' ' + Mylove);
-}
+// for (const Mylove of Family ) {
+//   console.log('my family' + ' ' + Mylove);
+// }
+
+// const list = document.querySelector('li');
+// list.remove();
+
