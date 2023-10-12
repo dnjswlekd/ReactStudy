@@ -149,3 +149,13 @@
 // const list = document.querySelector('li');
 // list.remove();
 
+function handleTimeout(){
+  console.log('Time out!')
+}
+
+const handleTimeout2 = () => {
+  console.log('Time out agin!')
+
+}
+
+setTimeout();
