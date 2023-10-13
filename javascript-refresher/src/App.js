@@ -149,26 +149,42 @@
 // const list = document.querySelector('li');
 // list.remove();
 
-function handleTimeout(){
-  console.log('Time out!')
-}
+// function handleTimeout(){
+//   console.log('Time out!')
+// }
 
-const handleTimeout2 = () => {
-  console.log('Time out agin!')
+// const handleTimeout2 = () => {
+//   console.log('Time out agin!')
 
-}
+// }
 
-setTimeout(handleTimeout, 2000);
-setTimeout(handleTimeout2, 3000);
+// setTimeout(handleTimeout, 2000);
+// setTimeout(handleTimeout2, 3000);
 
-// 함수를 정하지않고 익명함수를 추가해도 상관없다.
-setTimeout( () => {
-  console.log('wonji world!')
-}, 4000)
+// // 함수를 정하지않고 익명함수를 추가해도 상관없다.
+// setTimeout( () => {
+//   console.log('wonji world!')
+// }, 4000)
 
 
-function greeter(greetFn){
-  greetFn()
-}
+// function greeter(greetFn){
+//   greetFn()
+// }
 
-greeter(()=>{console.log('Ta-da')})
+// greeter(()=>{console.log('Ta-da')})
+
+// function init(){
+//   function greet(){
+//     console.log('wonji')
+//   }
+//   greet();
+// }
+// init();
+
+// let userMessage = 'hi';
+// userMessage = userMessage.concat('!!!')
+
+// console.log(userMessage)
+
+const hobbies = ['Working', 'Reading'];
+hobbies.push('Cooking')
