@@ -158,4 +158,17 @@ const handleTimeout2 = () => {
 
 }
 
-setTimeout();
+setTimeout(handleTimeout, 2000);
+setTimeout(handleTimeout2, 3000);
+
+// 함수를 정하지않고 익명함수를 추가해도 상관없다.
+setTimeout( () => {
+  console.log('wonji world!')
+}, 4000)
+
+
+function greeter(greetFn){
+  greetFn()
+}
+
+greeter(()=>{console.log('Ta-da')})
